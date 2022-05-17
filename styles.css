@@ -10,13 +10,20 @@
 
 :root {
     --lightcolor: rgb(253, 238, 251);
-    --darkcolor: rgb(1, 34, 4)
+    --darkcolor: rgb(1, 34, 4);
+    --accentcolor: rgb(159, 33, 147);
 }
 
 
 html {
     background-color: var(--lightcolor);
     font-family: 'Bangers', cursive;
+
+}
+
+#hero {
+    color: var(--accentcolor);
+    font-family: 'Potta One', cursive;
 
 }
 

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+:root {
+    --lightcolor: rgb(253, 238, 251);
+    --darkcolor: rgb(1, 34, 4)
+}
+
+
+html {
+    background-color: var(--lightcolor);
+}
+
+h1 {
+    text-align: center;
+    margin: 1em;
+    font-size: 3em;
+    color: var(--darkcolor);
+}
+
+p {
+    background-color: rgb(1, 34, 4);
+    color: var(--lightcolor);
+    font-size: 2em;
+    padding: 1em;
+    font-family: 'Bangers', cursive;
+}

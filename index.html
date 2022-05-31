@@ -19,24 +19,61 @@
 
 <body>
 
-    <h1 id="hero">いらっしゃいまっせ!</h1>
+    <nav>
+        <div id="languages">
+            <div id="language">
+                <a id="toggle" href="#languages">en</a>
+            </div>
+            <ul>
+                <li><a href="/jp.html">jp</a></li>
+                <li id="cross"><a href="#">╳</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquam quos repudiandae perspiciatis, quibusdam,
-        tempore laborum quas sequi, molestias sapiente autem. Ab possimus, porro vitae culpa quasi explicabo cupiditate
-        animi amet fuga ut quas perspiciatis. Illum, qui laboriosam numquam molestias, cumque sit quam possimus atque
-        amet, maiores aspernatur explicabo ex.</p>
+    <header>
+        <h1 id="hero">いらっしゃいまっせ!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquam quos repudiandae perspiciatis,
+            quibusdam,
+            tempore laborum quas sequi, molestias sapiente autem. Ab possimus, porro vitae culpa quasi explicabo
+            cupiditate
+            animi amet fuga ut quas perspiciatis. Illum, qui laboriosam numquam molestias, cumque sit quam possimus
+            atque
+            amet, maiores aspernatur explicabo ex.</p>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam quos quaerat est quas velit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam quos quaerat est quas velit!</p>
+    </header>
 
-    <h2>What we serve</h2>
+    <section>
+        <h2>What we serve</h2>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quia necessitatibus itaque sint consequuntur
-        eveniet!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quia necessitatibus itaque sint consequuntur
+            eveniet!</p>
+    </section>
 
+    <section>
+        <h2>Our reservation policy</h2>
 
-    <h2>Our reservation policy</h2>
+        <p>We don't accept reservations!</p>
+    </section>
 
-    <p>We don't accept reservations!</p>
+    <section>
+        <h2>Contact</h2>
+
+        <!-- modify this form HTML and place wherever you want your form -->
+        <form action="https://formspree.io/f/mdobbyyw" method="POST">
+            <label>
+                Your email:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+        </form>
+    </section>
 
 </body>
 

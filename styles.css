@@ -52,6 +52,7 @@ textarea {
     display: block;
     background-color: var(--lightcolor);
     width: 100%;
+    font-family: 'Helvetica';
 }
 
 button {
@@ -59,7 +60,6 @@ button {
     background-image: linear-gradient(144deg, var(--lightcolor), var(--darkcolor));
     background-color: var(--darkcolor);
     border: 2px solid var(--accentcolor);
-
     cursor: pointer;
     display: inline-flex;
     height: 2.5em;
@@ -98,6 +98,7 @@ button:hover {
 #toggle:after {
     content: " ▾";
 }
+
 
 #language:hover,
 #language:target {
